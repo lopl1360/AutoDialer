@@ -1,0 +1,35 @@
+//** July 7th, 08'- Creation Date
+
+//** July 16th, 08'- Updated to v 1.3:
+	//1) Adds "Side Bar" orientation option. 
+	//2) Drop Down Menus now auto adjust their positioning if too close to either right or bottom window edges.
+	//3) Enhanced IFRAME shim "coverage" on the page.
+
+//** July 19th, 08'- Updated to v 1.31: Drop down menu now positions at top of window edge if there's neither room downwards or upwards to settle.
+//** Aug 13th, 08'- v1.32: Moved "rel" attribute from menu's <li> elements to inner <a>, for validation reasons
+
+//** Sept 10th, 08'- Updated to v 1.4:
+	//1) Added optional "sliding" animation when sub menus are revealed.
+	//2) Arrow images now dynamically positioned, instead of relying on CSS's "right" property
+
+//** Oct 11th, 08'- Updated to v 1.5:
+	//1) Sliding animation behavior tweaked
+	//2) Added ability to disable iframeshim, customize speed of sliding animation
+
+//** Dec 23rd, 08'- Updated to v 2.0:
+	//1) Animation speed refined to be function of time (ie: 1 sec)
+	//2) Added two animations that can be individually enabled/disabled- "slide in" and "fade in".
+	//3) Script now automatically moves HTML for all sub menus to the end of the page, to avoid any containership issues if they are nested in other elements.
+
+//** Jan 12, 09'- Updated to v 2.1:
+	//1) Added ability to disable the arrow images from the top level items (see option "showarrow")
+	//2) For Top Level Menu items containing a SPAN element (for sliding doors technique), arrow images are inserted inside SPAN.
+
+//** June 15, 09'- Updated to v 2.2:
+	//1) Faster initialization: Menu now rendered as soon as document DOM is ready, instead of after page has fully loaded.
+
+//** May 25rd, 11'- Updated to v 3.0:
+	//1) Added a real "slide in" animation that can be enabled/disabled- "swipe in" have to be enabled to make it work.
+	//2) In ddlevelsmenu-base.css, .ddsubmenustyle ul has been changed to .ddsubmenustyle div, plus added a new .ddsubmenustyle ul section.
+
+//** July 17th, 11'- Updated to v 3.01: Menu updated to work properly in popular mobile devices such as iPad/iPhone and Android tablets.
